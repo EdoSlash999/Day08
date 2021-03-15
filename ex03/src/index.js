@@ -1,5 +1,5 @@
 var myGlobalVariable = 10;
-function function1(name, age) {
+function function1() {
   notGlobalVariable = 5;
 }
 
