@@ -1,6 +1,6 @@
 function functionPrintInfo(name, age) {
-  console.log("John", "23");
-  console.log("Michael", "43");
+  console.log(name, age);
 }
-functionPrintInfo();
+functionPrintInfo("John", 23);
+functionPrintInfo("Michael", 43);
 module.exports = functionPrintInfo;
